@@ -1,0 +1,191 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+header{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+	background-image:url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+	min-width:600px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ the header affects the title along with the backgrount image with the sun. 
+ It's currently centered and has a minimum width of 600px
+*/
+
+
+
+body {
+	background-color: #00569f;
+	background-image: linear-gradient(rgb(224, 246, 255), rgb(127, 166, 218), #00569f);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	height:100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+/*
+the body is affecting the gradient we see in the back and I made sure the 
+gradient is a solif color beyond it by including a "no-repeat"
+*/
+
+nav ul{
+	list-style-type: none;
+	margin-left:0px;
+	padding-left:0px;
+	font-size: 1.2em;
+	}
+
+
+/*
+this is the navigation bar with the menu options, I included a style type 
+to get rid of the bullet points and underlines.
+*/
+
+li a{
+	text-decoration: none;
+	color:#000033;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	}
+
+/*
+This affects the styling of the menu options.
+*/
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+
+nav a:visited{
+	color:#666666;
+}
+
+
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+
+
+h2 {
+	color: #3399CC;
+}
+
+
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+
+#contact {
+	font-size: 90%;
+}
+
+
+
+dt {
+	color: #000033;
+}
+
+
+
+#wrapper{
+	width:80%;
+	min-width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*
+the wrapper is the "main part" of the webpage and the properties applied here
+allow the page to maintain the right form when the page is resized. 
+*/
+
+#content{
+	background-color: white;
+    font-size: 14px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	padding-top: 4px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+/*
+this is the part with the image and text and the properties here allow it to
+properly be formatted beside the nav bar
+*/
+
+
+nav{
+	background-color: #9cd2ec;
+    width: 160px;
+	min-height:390px;
+	float:left;
+	padding-left:20px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+/*
+these are the stylings applies on the nav bar to retain it's width and 
+resizable height
+*/
+
+img{
+	float:left;
+	margin-right: 25px;
+}
+
+
+
+#content li{
+list-style-image: url('marker.gif');
+list-style-position: inside;
+
+}
+
+/*
+removed the bullet list and included the gif for the bullet points in the text
+*/
+
+
+span{
+	color:rgb(111, 161, 228);
+	font-weight: bold;
+}
+
+/*
+adds the special color to the resort's name in the main page
+*/
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 12px;
+	background-color: white;
+	padding-bottom: 25px;
+	padding-left: 200px;
+}
+
+/*
+properties of the footer that allow it to remain at the bottom of the page
+*/
